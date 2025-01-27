@@ -13,6 +13,6 @@ namespace API.Entities
         [Required]
         public byte[] PasswordSalt { get; set; }
         
-        public  string UserEmail { get; set;}                
+        public string UserEmail { get; set;}                
     }
 }
